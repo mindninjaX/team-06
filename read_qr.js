@@ -7,7 +7,14 @@ import './index.css';
 import App from './App';
 import QrReader from 'react-qr-reader'
 
-class QrContainer extends Component {
+
+
+
+
+//js
+
+
+class QrContainer extends React.Component {
     constructor(props){
         super(props)
         this.state = {
@@ -18,7 +25,7 @@ class QrContainer extends Component {
     
     handleScan(result){
         this.setState({
-            result:data
+            result
         })
     }
     handleError(err){
@@ -45,6 +52,12 @@ class QrContainer extends Component {
             marginTop: '-50px'
         }
 
+
+        var layout = {title: "ECG"};
+        // Parse data from this.state.result
+        //Plotly.newPlot('myDiv', data, layout, {scrollZoom: true});
+
+
         return(
         <React.Fragment>
             <div style = {camStyle}>
@@ -57,6 +70,7 @@ class QrContainer extends Component {
             </div>
             <p style = {textStyle}>
                 {this.state.result}
+                <div id='myDiv'></div>
             </p>
             </React.Fragment>
         )
