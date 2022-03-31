@@ -1,4 +1,5 @@
-/// source: https://medium.com/@johndoan42/how-to-implement-a-qr-code-reader-into-your-react-application-3638e466dc79
+//qr code reader - complete
+//source: https://medium.com/@johndoan42/how-to-implement-a-qr-code-reader-into-your-react-application-3638e466dc79
 
 import React from 'react';
 import ReactDOM from 'react-dom';
