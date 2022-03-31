@@ -1,5 +1,4 @@
-
-//figure out legnth and time increment
+//install plotly.js
 
 //example array
 var array = [3,3,3,3,3,3,3.5,4,4.3,3,-1,10,3,2,5,6,3,3,3,3,3,3];
