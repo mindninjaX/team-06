@@ -1,6 +1,6 @@
-### this python scrip reads the array of the ecg, graphs it **need to incorporate onto webpage**
+### this rough python script reads the array of the ecg, graphs it **need to incorporate onto webpage**
 ### the link to the page will be stored in a qr code
-### task: rewrite graph in react and add slider
+### task: rewrite zoom/panable graph in react 
 
 import qrcode
 import matplotlib.pyplot as plt
